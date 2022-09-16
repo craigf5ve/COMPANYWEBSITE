@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <h1><section>
+            <img src="are.jpg" alt="" height="50" width="100">
+  <h1 style="text-align: center;">AMAZON REAL ESTATE</h1></h1>
+  <hr/>
+    </head>
+    <body>
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Document</title>
+        </head>
+        <script>  
+            function validateform(){  
+            var name=document.myform.name.value;  
+            
+              if (name==null || name==""){  
+              alert("Name can't be blank!");  
+              return false; 
+            }  
+        }
+            </script>  
+           
+            <script>
+            function validate(){  
+            var num=document.myform.num.value;  
+            if (isNaN(num)){  
+            document.getElementById("numloc").innerHTML="Enter Numeric value only";  
+            return false;  
+            }else{  
+            return true;  
+  }  
+}    
+            </script>
+            <script>
+                const validateEmail = (email) => {
+  return String(email)
+    .toLowerCase()
+    .match(
+      /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
+    );
+};
+            </script>
+        <body>
+            <form id="frm1" action="/action_page.php">
+                Name: <input type="text" id="text-input1" name="name" ><br><br>
+                Number: <input type="number" id="text-input2" name="number"><br><br>
+                Email: <input type="text" id="text-input3" name="email"><br><br>
+                Enquiry: <input type="text" id="text-input4" name="enquiry"><br><br><br>
+                <input type="button" onclick="myFunction()" value="Submit">
+              </form>
+              
+              <script>
+              function myFunction() {
+                document.getElementById("frm1").submit();
+              }
+              </script>
+            <style>
+                body {
+                  background-color: grey;
+                }
+
+                footer{
+                    position: absolute;
+                    bottom: 10px;
+                }
+
+                #text-input1{
+                    background-color:  rgb(199, 178, 178);
+                    padding: 5px;
+                }
+
+                #text-input2{
+                    background-color: rgb(199, 178, 178);
+                    padding: 5px;
+                }
+
+                #text-input3{
+                    background-color: rgb(199, 178, 178);
+                    padding: 5px;
+                }
+
+                #text-input4{
+                    background-color: rgb(199, 178, 178);
+                    padding: 5px;
+
+                }
+
+                
+                </style>
+
+
+        </body>
+        </html>
+    </body>
+    <hr/>
+<hr/>
+<footer style="text-align: center;">Copyright 1999-2022 by Refsnes Data. All Rights Reserved.
+    Amazon Real Estate.
+    </footer>
+    </html>
+</html>
